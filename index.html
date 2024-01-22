@@ -20,7 +20,7 @@
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden md:hidden">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
                 stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
@@ -37,7 +37,7 @@
           <a class="lg:text-4xl text-2xl font-extrabold text-title-color">Hockey<span
               class='text-[var(--primary-color)]'>’</span>s</a>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center hidden md:block lg:flex">
           <ul class="menu menu-horizontal px-1 font-normal text-base text-[#424247]">
             <li><a class="text-[var(--primary-color)]">Home</a></li>
             <li><a>About</a></li>
@@ -69,7 +69,16 @@
           </div>
         </div>
     </section>
-
+    <section class="container mx-auto">
+      <div
+        class="card lg:w-[556px] w-[full] md:w-[70%] mx-3 bg-[var(--title-color)] lg:absolute md:absolute md:bottom-[25%] md:right-[12%] lg:z-10 lg:left-[59%] lg:bottom-[14%]">
+        <div class="card-body p-4 lg:p-8 text-[var(--grey)] ">
+          <h2 class="card-title font-extrabold text-white  text-lg">Meet all the heroes from the field</h2>
+          <p class="font-medium text-sm tex">I was speechless when I met Serena Williams. She was so kind and inspiring.
+            She gave me a hug and a signed tennis ball. It was a dream come true. </p>
+        </div>
+      </div>
+    </section>
   </header>
   <main>
 
