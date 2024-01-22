@@ -2,9 +2,21 @@
     --primary-color:#FF4240;
     --title-color:#131318;
     --grey:#FFFFFF99;
+    --p-color:#13131899;
     
 }
 
 .font-manrope{
     font-family: "Manrope",sans-serif;
 }
+
+/* .percent-card h1{
+    display: flex;
+    background: url('assets/percentage/percent-87.svg');
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 120px;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+} */
