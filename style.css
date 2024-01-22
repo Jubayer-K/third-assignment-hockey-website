@@ -1,3 +1,9 @@
+:root{
+    --primary-color:#FF4240;
+    --title-color:#131318;
+    
+}
+
 .font-manrope{
     font-family: "Manrope",sans-serif;
 }

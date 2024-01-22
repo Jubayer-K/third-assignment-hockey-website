@@ -2,32 +2,81 @@
 <html lang="en" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <title>Hockey's Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <title>Hockey's Website</title>
 </head>
 
-<body>
-    <header>
-        <nav>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, adipisci?</h1>
+<body class="font-manrope">
+  <header>
+    <nav class="container mx-auto lg:my-14 my-7">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-[var(--primary-color)]">Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Content</a></li>
+            </ul>
+          </div>
+          <a class="lg:text-4xl text-2xl font-extrabold text-title-color">Hockey<span
+              class='text-[var(--primary-color)]'>’</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-normal text-base text-[#424247]">
+            <li><a class="text-[var(--primary-color)]">Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Content</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex gap-6">
+          <img class="hidden lg:block" src="assets/search.svg" alt="">
+          <a class="btn bg-[--primary-color] text-white font-bold lg:text-xl text-[1.125rem] lg:px-6">Get Ticket</a>
+        </div>
+      </div>
+    </nav>
+    <section class="container mx-auto px-4 lg:px-0">
+      <div class="carousel w-full lg:h-[650px]">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="assets/banner.png" class="w-full object-cover lg:rounded-2xl rounded-xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2"><button class="btn btn-circle btn-outline">❮</button></a>
+            <a href="#slide2"> <button class="btn btn-circle btn-outline">❯</button></a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="assets/banner-2.jpg" class="w-full object-cover lg:rounded-2xl rounded-xl" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1"><button class="btn btn-circle btn-outline">❮</button></a>
+            <a href="#slide1"> <button class="btn btn-circle btn-outline">❯</button></a>
+          </div>
+        </div>
+    </section>
 
-        </nav>
+  </header>
+  <main>
 
-    </header>
-    <main>
+  </main>
+  <footer>
 
-    </main>
-    <footer>
-
-    </footer>
+  </footer>
 
 </body>
 
