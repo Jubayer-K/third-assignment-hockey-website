@@ -8,7 +8,7 @@
 .font-manrope {
   font-family: "Manrope", sans-serif;
 }
-
+/* reference for css to tailwind */
 /* .percent-card h1{
     display: flex;
     background: url('assets/percentage/percent-87.svg');
@@ -19,6 +19,7 @@
     background-size: cover;
     align-items: center;
 } */
+/* program section styles */
 #program-1 {
   background: linear-gradient(280deg, #0000007b 0%, rgba(19, 19, 24, 0.5) 100%),
     url("assets/program.png");
