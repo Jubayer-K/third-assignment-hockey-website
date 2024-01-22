@@ -1,13 +1,12 @@
-:root{
-    --primary-color:#FF4240;
-    --title-color:#131318;
-    --grey:#FFFFFF99;
-    --p-color:#13131899;
-    
+:root {
+  --primary-color: #ff4240;
+  --title-color: #131318;
+  --grey: #ffffff99;
+  --p-color: #13131899;
 }
 
-.font-manrope{
-    font-family: "Manrope",sans-serif;
+.font-manrope {
+  font-family: "Manrope", sans-serif;
 }
 
 /* .percent-card h1{
@@ -20,3 +19,24 @@
     background-size: cover;
     align-items: center;
 } */
+#program-1 {
+  background: linear-gradient(280deg, #0000007b 0%, rgba(19, 19, 24, 0.5) 100%),
+    url("assets/program.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#program-2 {
+    background: linear-gradient(280deg, #0000007b 0%, rgba(19, 19, 24, 0.5) 100%),
+    url("assets/program-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#program-3 {
+    background: linear-gradient(280deg, #0000007b 0%, rgba(19, 19, 24, 0.5) 100%),
+    url("assets/program-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
